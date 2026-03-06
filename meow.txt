@@ -1,0 +1,41 @@
+1.  Polimorfizm: Wielopostaciowość – ta sama metoda działa inaczej w różnych klasach.
+2.  Słowo "this": Wskazuje na bieżący obiekt (instancję), w kontekście którego wywołano kod.
+3.  Tworzenie obiektów: Za pomocą operatora new (z klasą/konstruktorem) lub zapisu literalnego {}.
+4.  Metoda to: Funkcja zdefiniowana wewnątrz klasy lub obiektu.
+5.  Hermetyzacja: Ukrywanie wnętrza obiektu i udostępnianie tylko niezbędnego interfejsu (metod).
+6.  Paradygmaty: Obiektowe, strukturalne, funkcyjne.
+7.  Cechy obiektu: Posiada stan (pola/właściwości) i zachowanie (metody).
+8.  Klasa: Szablon (wzorzec), na podstawie którego tworzone są obiekty.
+9.  Przypisanie wartości: obiekt.pole = "tekst";
+10. Konstruktor: Metoda wywoływana automatycznie przy tworzeniu obiektu (słowo new), inicjalizuje pola.
+11. Właściwości zapisywane w: Polach (atrybutach) obiektu.
+12. Prog. strukturalne: Opiera się na funkcjach i hierarchicznym podziale kodu (brak goto).
+13. Zdefiniowane klasy mogą: Dziedziczyć po innych klasach (extends) i tworzyć wiele instancji.
+14. Stwierdzenie o OOP: Łączy dane i logikę w jedną całość (obiekt).
+15. Destruktor: Metoda usuwająca obiekt (w JS proces ten wykonuje automatycznie Garbage Collector).
+16. Wyświetlanie obiektu: console.log(nazwaObiektu);
+17. Linia kodu: Wywołuje metodę moze_jednak obiektu niewiem i przypisuje wynik do a_kuku.
+18. Prototype: Służy do dodawania metod i właściwości do wszystkich instancji danej klasy.
+19. Ile metod/pól: Pola to zmienne (np. this.x), metody to funkcje (np. oblicz()).
+20. Dziedziczenie: Przejmowanie właściwości i metod klasy nadrzędnej (bazowej) przez klasę pochodną.
+
+1. Polimorfizm: Możliwość używania tej samej metody przez różne obiekty, z których każdy wykonuje ją na swój sposób.
+2. Słowo kluczowe `this`: Odnosi się do obiektu, w którym aktualnie znajduje się dany kod (wskazuje na "ten" konkretny obiekt).
+3. Tworzenie obiektów: Robi się to za pomocą nawiasów klamrowych `{}` (literał) lub słowa kluczowego `new` przed nazwą klasy/konstruktora.
+4. Postać metody: Metoda to po prostu funkcja przypisana do obiektu.
+5. Hermetyzacja: Ukrywanie danych wewnątrz obiektu, tak aby nie można było ich zmienić bezpośrednio z zewnątrz (ochrona danych).
+6. Paradygmaty programowania: Główne to obiektowe (OOP), strukturalne i funkcyjne.
+7. Cechy programowania obiektowego: Abstrakcja, hermetyzacja, dziedziczenie i polimorfizm.
+8. Klasa: Projekt lub "szablon", według którego budowane są obiekty (jak plan budowy domu).
+9. Instrukcja przypisania tekstu: Przykład: `auto.kolor = "czerwony";`
+10. Cechy konstruktora: Jest to specjalna metoda wywoływana tylko raz – w momencie tworzenia obiektu; służy do ustawiania początkowych wartości.
+11. Zapis właściwości: Właściwości są zapisywane wewnątrz obiektu jako pary klucz: wartość.
+12. Programowanie strukturalne: Opiera się na dzieleniu programu na mniejsze bloki (funkcje i procedury) wykonywane krok po kroku.
+13. Zdefiniowane klasy mogą: Służyć do tworzenia wielu identycznych pod względem struktury obiektów (instancji) oraz dziedziczyć po innych klasach.
+14. Stwierdzenie o OOP: Programowanie obiektowe pozwala lepiej odwzorować rzeczywistość i ułatwia zarządzanie dużym kodem dzięki podziałowi na obiekty.
+15. Stwierdzenie o destruktorze: W JavaScript nie ma klasycznych destruktorów; pamięć jest czyszczona automatycznie przez Garbage Collector.
+16. Wyświetlanie danych: Najprościej użyć polecenia `console.log(nazwaObiektu);`.
+17. Linia kodu `a_kuku = niewiem.moze_jednak();`: Wywołuje funkcję (metodę) `moze_jednak` z obiektu `niewiem`, a wynik zapisuje w zmiennej `a_kuku`.
+18. Właściwość `prototype`: Pozwala dodawać nowe metody i właściwości do wszystkich istniejących już obiektów danego typu.
+19. Ile metod i pól: (Brak kodu do analizy na zdjęciu, ale pola to zmienne w obiekcie, a metody to funkcje).
+20. Dziedziczenie wobec klasy: Pozwala nowej klasie przejąć wszystkie cechy i funkcje innej, już istniejącej klasy.
